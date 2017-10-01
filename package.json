@@ -1,0 +1,10 @@
+{
+	"permissions": "*",
+	"autoload": "autoloader.json",
+	"dependencies": ["base"],
+	"license": "BSD-3-Clause",
+	"author": {
+		"name": "Nikita Popov"
+	},
+	"@copyright":"It's cloned from https://github.com/nikic/PHP-Parser"
+}

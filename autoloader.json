@@ -1,0 +1,1222 @@
+{
+    "files": [
+        {
+            "file": "library/Node/Expr.php",
+            "classes": [
+                "Node\\Expr"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt.php",
+            "classes": [
+                "Node\\Stmt"
+            ]
+        },
+        {
+            "file": "library/Node/Param.php",
+            "classes": [
+                "Node\\Param"
+            ]
+        },
+        {
+            "file": "library/Node/Const_.php",
+            "classes": [
+                "Node\\Const_"
+            ]
+        },
+        {
+            "file": "library/Node/Scalar/MagicConst.php",
+            "classes": [
+                "Node\\Scalar\\MagicConst"
+            ]
+        },
+        {
+            "file": "library/Node/Scalar/MagicConst/Trait_.php",
+            "classes": [
+                "Node\\Scalar\\MagicConst\\Trait_"
+            ]
+        },
+        {
+            "file": "library/Node/Scalar/MagicConst/Dir.php",
+            "classes": [
+                "Node\\Scalar\\MagicConst\\Dir"
+            ]
+        },
+        {
+            "file": "library/Node/Scalar/MagicConst/File.php",
+            "classes": [
+                "Node\\Scalar\\MagicConst\\File"
+            ]
+        },
+        {
+            "file": "library/Node/Scalar/MagicConst/Line.php",
+            "classes": [
+                "Node\\Scalar\\MagicConst\\Line"
+            ]
+        },
+        {
+            "file": "library/Node/Scalar/MagicConst/Class_.php",
+            "classes": [
+                "Node\\Scalar\\MagicConst\\Class_"
+            ]
+        },
+        {
+            "file": "library/Node/Scalar/MagicConst/Method.php",
+            "classes": [
+                "Node\\Scalar\\MagicConst\\Method"
+            ]
+        },
+        {
+            "file": "library/Node/Scalar/MagicConst/Function_.php",
+            "classes": [
+                "Node\\Scalar\\MagicConst\\Function_"
+            ]
+        },
+        {
+            "file": "library/Node/Scalar/MagicConst/Namespace_.php",
+            "classes": [
+                "Node\\Scalar\\MagicConst\\Namespace_"
+            ]
+        },
+        {
+            "file": "library/Node/Scalar/Encapsed.php",
+            "classes": [
+                "Node\\Scalar\\Encapsed"
+            ]
+        },
+        {
+            "file": "library/Node/Scalar/DNumber.php",
+            "classes": [
+                "Node\\Scalar\\DNumber"
+            ]
+        },
+        {
+            "file": "library/Node/Scalar/LNumber.php",
+            "classes": [
+                "Node\\Scalar\\LNumber"
+            ]
+        },
+        {
+            "file": "library/Node/Scalar/String_.php",
+            "classes": [
+                "Node\\Scalar\\String_"
+            ]
+        },
+        {
+            "file": "library/Node/Scalar/EncapsedStringPart.php",
+            "classes": [
+                "Node\\Scalar\\EncapsedStringPart"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Label.php",
+            "classes": [
+                "Node\\Stmt\\Label"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/For_.php",
+            "classes": [
+                "Node\\Stmt\\For_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Trait_.php",
+            "classes": [
+                "Node\\Stmt\\Trait_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Echo_.php",
+            "classes": [
+                "Node\\Stmt\\Echo_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Else_.php",
+            "classes": [
+                "Node\\Stmt\\Else_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/StaticVar.php",
+            "classes": [
+                "Node\\Stmt\\StaticVar"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Const_.php",
+            "classes": [
+                "Node\\Stmt\\Const_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Property.php",
+            "classes": [
+                "Node\\Stmt\\Property"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/ClassMethod.php",
+            "classes": [
+                "Node\\Stmt\\ClassMethod"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Finally_.php",
+            "classes": [
+                "Node\\Stmt\\Finally_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/GroupUse.php",
+            "classes": [
+                "Node\\Stmt\\GroupUse"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Global_.php",
+            "classes": [
+                "Node\\Stmt\\Global_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Class_.php",
+            "classes": [
+                "Node\\Stmt\\Class_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Unset_.php",
+            "classes": [
+                "Node\\Stmt\\Unset_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Declare_.php",
+            "classes": [
+                "Node\\Stmt\\Declare_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/TryCatch.php",
+            "classes": [
+                "Node\\Stmt\\TryCatch"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/ClassLike.php",
+            "classes": [
+                "Node\\Stmt\\ClassLike"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Do_.php",
+            "classes": [
+                "Node\\Stmt\\Do_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/ElseIf_.php",
+            "classes": [
+                "Node\\Stmt\\ElseIf_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/If_.php",
+            "classes": [
+                "Node\\Stmt\\If_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/ClassConst.php",
+            "classes": [
+                "Node\\Stmt\\ClassConst"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Break_.php",
+            "classes": [
+                "Node\\Stmt\\Break_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/HaltCompiler.php",
+            "classes": [
+                "Node\\Stmt\\HaltCompiler"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Catch_.php",
+            "classes": [
+                "Node\\Stmt\\Catch_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/PropertyProperty.php",
+            "classes": [
+                "Node\\Stmt\\PropertyProperty"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/UseUse.php",
+            "classes": [
+                "Node\\Stmt\\UseUse"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Use_.php",
+            "classes": [
+                "Node\\Stmt\\Use_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/TraitUseAdaptation.php",
+            "classes": [
+                "Node\\Stmt\\TraitUseAdaptation"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Foreach_.php",
+            "classes": [
+                "Node\\Stmt\\Foreach_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/While_.php",
+            "classes": [
+                "Node\\Stmt\\While_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/InlineHTML.php",
+            "classes": [
+                "Node\\Stmt\\InlineHTML"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Nop.php",
+            "classes": [
+                "Node\\Stmt\\Nop"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Throw_.php",
+            "classes": [
+                "Node\\Stmt\\Throw_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Interface_.php",
+            "classes": [
+                "Node\\Stmt\\Interface_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/TraitUse.php",
+            "classes": [
+                "Node\\Stmt\\TraitUse"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Case_.php",
+            "classes": [
+                "Node\\Stmt\\Case_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Continue_.php",
+            "classes": [
+                "Node\\Stmt\\Continue_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Switch_.php",
+            "classes": [
+                "Node\\Stmt\\Switch_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Function_.php",
+            "classes": [
+                "Node\\Stmt\\Function_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/DeclareDeclare.php",
+            "classes": [
+                "Node\\Stmt\\DeclareDeclare"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Static_.php",
+            "classes": [
+                "Node\\Stmt\\Static_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/TraitUseAdaptation/Alias.php",
+            "classes": [
+                "Node\\Stmt\\TraitUseAdaptation\\Alias"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/TraitUseAdaptation/Precedence.php",
+            "classes": [
+                "Node\\Stmt\\TraitUseAdaptation\\Precedence"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Return_.php",
+            "classes": [
+                "Node\\Stmt\\Return_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Goto_.php",
+            "classes": [
+                "Node\\Stmt\\Goto_"
+            ]
+        },
+        {
+            "file": "library/Node/Stmt/Namespace_.php",
+            "classes": [
+                "Node\\Stmt\\Namespace_"
+            ]
+        },
+        {
+            "file": "library/Node/Scalar.php",
+            "classes": [
+                "Node\\Scalar"
+            ]
+        },
+        {
+            "file": "library/Node/FunctionLike.php",
+            "classes": [
+                "Node\\FunctionLike"
+            ]
+        },
+        {
+            "file": "library/Node/Name/FullyQualified.php",
+            "classes": [
+                "Node\\Name\\FullyQualified"
+            ]
+        },
+        {
+            "file": "library/Node/Name/Relative.php",
+            "classes": [
+                "Node\\Name\\Relative"
+            ]
+        },
+        {
+            "file": "library/Node/Name.php",
+            "classes": [
+                "Node\\Name"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/List_.php",
+            "classes": [
+                "Node\\Expr\\List_"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/ArrayDimFetch.php",
+            "classes": [
+                "Node\\Expr\\ArrayDimFetch"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Cast/Object_.php",
+            "classes": [
+                "Node\\Expr\\Cast\\Object_"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Cast/Bool_.php",
+            "classes": [
+                "Node\\Expr\\Cast\\Bool_"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Cast/Array_.php",
+            "classes": [
+                "Node\\Expr\\Cast\\Array_"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Cast/Unset_.php",
+            "classes": [
+                "Node\\Expr\\Cast\\Unset_"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Cast/Int_.php",
+            "classes": [
+                "Node\\Expr\\Cast\\Int_"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Cast/String_.php",
+            "classes": [
+                "Node\\Expr\\Cast\\String_"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Cast/Double.php",
+            "classes": [
+                "Node\\Expr\\Cast\\Double"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/PostDec.php",
+            "classes": [
+                "Node\\Expr\\PostDec"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/PostInc.php",
+            "classes": [
+                "Node\\Expr\\PostInc"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Array_.php",
+            "classes": [
+                "Node\\Expr\\Array_"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Instanceof_.php",
+            "classes": [
+                "Node\\Expr\\Instanceof_"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/AssignRef.php",
+            "classes": [
+                "Node\\Expr\\AssignRef"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/ClassConstFetch.php",
+            "classes": [
+                "Node\\Expr\\ClassConstFetch"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/YieldFrom.php",
+            "classes": [
+                "Node\\Expr\\YieldFrom"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/PropertyFetch.php",
+            "classes": [
+                "Node\\Expr\\PropertyFetch"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/ConstFetch.php",
+            "classes": [
+                "Node\\Expr\\ConstFetch"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/UnaryPlus.php",
+            "classes": [
+                "Node\\Expr\\UnaryPlus"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Closure.php",
+            "classes": [
+                "Node\\Expr\\Closure"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Eval_.php",
+            "classes": [
+                "Node\\Expr\\Eval_"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/ShiftLeft.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\ShiftLeft"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/Equal.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\Equal"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/Plus.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\Plus"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/Div.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\Div"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/BitwiseXor.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\BitwiseXor"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/LogicalOr.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\LogicalOr"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/LogicalXor.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\LogicalXor"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/SmallerOrEqual.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\SmallerOrEqual"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/NotIdentical.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\NotIdentical"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/Smaller.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\Smaller"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/Spaceship.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\Spaceship"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/NotEqual.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\NotEqual"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/BitwiseAnd.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\BitwiseAnd"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/Mod.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\Mod"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/ShiftRight.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\ShiftRight"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/Minus.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\Minus"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/Pow.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\Pow"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/Mul.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\Mul"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/Coalesce.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\Coalesce"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/LogicalAnd.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\LogicalAnd"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/Concat.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\Concat"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/BitwiseOr.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\BitwiseOr"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/BooleanAnd.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\BooleanAnd"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/Identical.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\Identical"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/BooleanOr.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\BooleanOr"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/Greater.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\Greater"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp/GreaterOrEqual.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp\\GreaterOrEqual"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Print_.php",
+            "classes": [
+                "Node\\Expr\\Print_"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Empty_.php",
+            "classes": [
+                "Node\\Expr\\Empty_"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/UnaryMinus.php",
+            "classes": [
+                "Node\\Expr\\UnaryMinus"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/ShellExec.php",
+            "classes": [
+                "Node\\Expr\\ShellExec"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/StaticPropertyFetch.php",
+            "classes": [
+                "Node\\Expr\\StaticPropertyFetch"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BooleanNot.php",
+            "classes": [
+                "Node\\Expr\\BooleanNot"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Assign.php",
+            "classes": [
+                "Node\\Expr\\Assign"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/ClosureUse.php",
+            "classes": [
+                "Node\\Expr\\ClosureUse"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/MethodCall.php",
+            "classes": [
+                "Node\\Expr\\MethodCall"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Yield_.php",
+            "classes": [
+                "Node\\Expr\\Yield_"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Ternary.php",
+            "classes": [
+                "Node\\Expr\\Ternary"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Include_.php",
+            "classes": [
+                "Node\\Expr\\Include_"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/ArrayItem.php",
+            "classes": [
+                "Node\\Expr\\ArrayItem"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Clone_.php",
+            "classes": [
+                "Node\\Expr\\Clone_"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Error.php",
+            "classes": [
+                "Node\\Expr\\Error"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/StaticCall.php",
+            "classes": [
+                "Node\\Expr\\StaticCall"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/FuncCall.php",
+            "classes": [
+                "Node\\Expr\\FuncCall"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/PreInc.php",
+            "classes": [
+                "Node\\Expr\\PreInc"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Isset_.php",
+            "classes": [
+                "Node\\Expr\\Isset_"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/AssignOp/ShiftLeft.php",
+            "classes": [
+                "Node\\Expr\\AssignOp\\ShiftLeft"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/AssignOp/Plus.php",
+            "classes": [
+                "Node\\Expr\\AssignOp\\Plus"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/AssignOp/Div.php",
+            "classes": [
+                "Node\\Expr\\AssignOp\\Div"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/AssignOp/BitwiseXor.php",
+            "classes": [
+                "Node\\Expr\\AssignOp\\BitwiseXor"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/AssignOp/BitwiseAnd.php",
+            "classes": [
+                "Node\\Expr\\AssignOp\\BitwiseAnd"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/AssignOp/Mod.php",
+            "classes": [
+                "Node\\Expr\\AssignOp\\Mod"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/AssignOp/ShiftRight.php",
+            "classes": [
+                "Node\\Expr\\AssignOp\\ShiftRight"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/AssignOp/Minus.php",
+            "classes": [
+                "Node\\Expr\\AssignOp\\Minus"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/AssignOp/Pow.php",
+            "classes": [
+                "Node\\Expr\\AssignOp\\Pow"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/AssignOp/Mul.php",
+            "classes": [
+                "Node\\Expr\\AssignOp\\Mul"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/AssignOp/Concat.php",
+            "classes": [
+                "Node\\Expr\\AssignOp\\Concat"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/AssignOp/BitwiseOr.php",
+            "classes": [
+                "Node\\Expr\\AssignOp\\BitwiseOr"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Variable.php",
+            "classes": [
+                "Node\\Expr\\Variable"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/New_.php",
+            "classes": [
+                "Node\\Expr\\New_"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BinaryOp.php",
+            "classes": [
+                "Node\\Expr\\BinaryOp"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/PreDec.php",
+            "classes": [
+                "Node\\Expr\\PreDec"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Cast.php",
+            "classes": [
+                "Node\\Expr\\Cast"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/ErrorSuppress.php",
+            "classes": [
+                "Node\\Expr\\ErrorSuppress"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/BitwiseNot.php",
+            "classes": [
+                "Node\\Expr\\BitwiseNot"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/AssignOp.php",
+            "classes": [
+                "Node\\Expr\\AssignOp"
+            ]
+        },
+        {
+            "file": "library/Node/Expr/Exit_.php",
+            "classes": [
+                "Node\\Expr\\Exit_"
+            ]
+        },
+        {
+            "file": "library/Node/NullableType.php",
+            "classes": [
+                "Node\\NullableType"
+            ]
+        },
+        {
+            "file": "library/Node/Arg.php",
+            "classes": [
+                "Node\\Arg"
+            ]
+        },
+        {
+            "file": "library/NodeVisitor.php",
+            "classes": [
+                "NodeVisitor"
+            ]
+        },
+        {
+            "file": "library/PrettyPrinter/Standard.php",
+            "classes": [
+                "PrettyPrinter\\Standard"
+            ]
+        },
+        {
+            "file": "library/BuilderAbstract.php",
+            "classes": [
+                "BuilderAbstract"
+            ]
+        },
+        {
+            "file": "library/Builder/Trait_.php",
+            "classes": [
+                "Builder\\Trait_"
+            ]
+        },
+        {
+            "file": "library/Builder/Param.php",
+            "classes": [
+                "Builder\\Param"
+            ]
+        },
+        {
+            "file": "library/Builder/Property.php",
+            "classes": [
+                "Builder\\Property"
+            ]
+        },
+        {
+            "file": "library/Builder/Class_.php",
+            "classes": [
+                "Builder\\Class_"
+            ]
+        },
+        {
+            "file": "library/Builder/FunctionLike.php",
+            "classes": [
+                "Builder\\FunctionLike"
+            ]
+        },
+        {
+            "file": "library/Builder/Use_.php",
+            "classes": [
+                "Builder\\Use_"
+            ]
+        },
+        {
+            "file": "library/Builder/Method.php",
+            "classes": [
+                "Builder\\Method"
+            ]
+        },
+        {
+            "file": "library/Builder/Declaration.php",
+            "classes": [
+                "Builder\\Declaration"
+            ]
+        },
+        {
+            "file": "library/Builder/Interface_.php",
+            "classes": [
+                "Builder\\Interface_"
+            ]
+        },
+        {
+            "file": "library/Builder/Function_.php",
+            "classes": [
+                "Builder\\Function_"
+            ]
+        },
+        {
+            "file": "library/Builder/Namespace_.php",
+            "classes": [
+                "Builder\\Namespace_"
+            ]
+        },
+        {
+            "file": "library/NodeDumper.php",
+            "classes": [
+                "NodeDumper"
+            ]
+        },
+        {
+            "file": "library/ParserFactory.php",
+            "classes": [
+                "ParserFactory"
+            ]
+        },
+        {
+            "file": "library/Lexer/Emulative.php",
+            "classes": [
+                "Lexer\\Emulative"
+            ]
+        },
+        {
+            "file": "library/NodeTraverser.php",
+            "classes": [
+                "NodeTraverser"
+            ]
+        },
+        {
+            "file": "library/ErrorHandler/Collecting.php",
+            "classes": [
+                "ErrorHandler\\Collecting"
+            ]
+        },
+        {
+            "file": "library/ErrorHandler/Throwing.php",
+            "classes": [
+                "ErrorHandler\\Throwing"
+            ]
+        },
+        {
+            "file": "library/Lexer.php",
+            "classes": [
+                "Lexer"
+            ]
+        },
+        {
+            "file": "library/NodeTraverserInterface.php",
+            "classes": [
+                "NodeTraverserInterface"
+            ]
+        },
+        {
+            "file": "library/Unserializer.php",
+            "classes": [
+                "Unserializer"
+            ]
+        },
+        {
+            "file": "library/Node.php",
+            "classes": [
+                "Node"
+            ]
+        },
+        {
+            "file": "library/Builder.php",
+            "classes": [
+                "Builder"
+            ]
+        },
+        {
+            "file": "library/Serializer.php",
+            "classes": [
+                "Serializer"
+            ]
+        },
+        {
+            "file": "library/Comment.php",
+            "classes": [
+                "Comment"
+            ]
+        },
+        {
+            "file": "library/Parser.php",
+            "classes": [
+                "Parser"
+            ]
+        },
+        {
+            "file": "library/ParserAbstract.php",
+            "classes": [
+                "ParserAbstract"
+            ]
+        },
+        {
+            "file": "library/Error.php",
+            "classes": [
+                "Error"
+            ]
+        },
+        {
+            "file": "library/NodeAbstract.php",
+            "classes": [
+                "NodeAbstract"
+            ]
+        },
+        {
+            "file": "library/Parser/Php7.php",
+            "classes": [
+                "Parser\\Php7"
+            ]
+        },
+        {
+            "file": "library/Parser/Php5.php",
+            "classes": [
+                "Parser\\Php5"
+            ]
+        },
+        {
+            "file": "library/Parser/Multiple.php",
+            "classes": [
+                "Parser\\Multiple"
+            ]
+        },
+        {
+            "file": "library/Parser/Tokens.php",
+            "classes": [
+                "Parser\\Tokens"
+            ]
+        },
+        {
+            "file": "library/Serializer/XML.php",
+            "classes": [
+                "Serializer\\XML"
+            ]
+        },
+        {
+            "file": "library/NodeVisitor/NameResolver.php",
+            "classes": [
+                "NodeVisitor\\NameResolver"
+            ]
+        },
+        {
+            "file": "library/PrettyPrinterAbstract.php",
+            "classes": [
+                "PrettyPrinterAbstract"
+            ]
+        },
+        {
+            "file": "library/Autoloader.php",
+            "classes": [
+                "Autoloader"
+            ]
+        },
+        {
+            "file": "library/ErrorHandler.php",
+            "classes": [
+                "ErrorHandler"
+            ]
+        },
+        {
+            "file": "library/Comment/Doc.php",
+            "classes": [
+                "Comment\\Doc"
+            ]
+        },
+        {
+            "file": "library/Unserializer/XML.php",
+            "classes": [
+                "Unserializer\\XML"
+            ]
+        },
+        {
+            "file": "library/NodeVisitorAbstract.php",
+            "classes": [
+                "NodeVisitorAbstract"
+            ]
+        },
+        {
+            "file": "library/BuilderFactory.php",
+            "classes": [
+                "BuilderFactory"
+            ]
+        }
+    ]
+}
