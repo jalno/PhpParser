@@ -14,9 +14,9 @@ the following syntactic elements:
 Here is an example:
 
 ```php
-use PhpParser\BuilderFactory;
-use PhpParser\PrettyPrinter;
-use PhpParser\Node;
+use packages\PhpParser\BuilderFactory;
+use packages\PhpParser\PrettyPrinter;
+use packages\PhpParser\Node;
 
 $factory = new BuilderFactory;
 $node = $factory->namespace('Name\Space')

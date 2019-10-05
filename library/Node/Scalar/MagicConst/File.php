@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace packages\PhpParser\Node\Scalar\MagicConst;
 
@@ -6,7 +6,11 @@ use packages\PhpParser\Node\Scalar\MagicConst;
 
 class File extends MagicConst
 {
-    public function getName() {
+    public function getName() : string {
         return '__FILE__';
+    }
+    
+    public function getType() : string {
+        return 'Scalar_MagicConst_File';
     }
 }
