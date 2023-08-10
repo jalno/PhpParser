@@ -6,21 +6,26 @@ use packages\PhpParser\Error;
 use packages\PhpParser\ErrorHandler;
 use packages\PhpParser\Lexer;
 use packages\PhpParser\Lexer\TokenEmulator\AttributeEmulator;
+use packages\PhpParser\Lexer\TokenEmulator\EnumTokenEmulator;
 use packages\PhpParser\Lexer\TokenEmulator\CoaleseEqualTokenEmulator;
+use packages\PhpParser\Lexer\TokenEmulator\ExplicitOctalEmulator;
 use packages\PhpParser\Lexer\TokenEmulator\FlexibleDocStringEmulator;
 use packages\PhpParser\Lexer\TokenEmulator\FnTokenEmulator;
 use packages\PhpParser\Lexer\TokenEmulator\MatchTokenEmulator;
 use packages\PhpParser\Lexer\TokenEmulator\NullsafeTokenEmulator;
 use packages\PhpParser\Lexer\TokenEmulator\NumericLiteralSeparatorEmulator;
+use packages\PhpParser\Lexer\TokenEmulator\ReadonlyFunctionTokenEmulator;
+use packages\PhpParser\Lexer\TokenEmulator\ReadonlyTokenEmulator;
 use packages\PhpParser\Lexer\TokenEmulator\ReverseEmulator;
 use packages\PhpParser\Lexer\TokenEmulator\TokenEmulator;
-use packages\PhpParser\Parser\Tokens;
 
 class Emulative extends Lexer
 {
     const PHP_7_3 = '7.3dev';
     const PHP_7_4 = '7.4dev';
     const PHP_8_0 = '8.0dev';
+    const PHP_8_1 = '8.1dev';
+    const PHP_8_2 = '8.2dev';
 
     /** @var mixed[] Patches used to reverse changes introduced in the code */
     private $patches = [];
@@ -34,11 +39,11 @@ class Emulative extends Lexer
     /**
      * @param mixed[] $options Lexer options. In addition to the usual options,
      *                         accepts a 'phpVersion' string that specifies the
-     *                         version to emulated. Defaults to newest supported.
+     *                         version to emulate. Defaults to newest supported.
      */
     public function __construct(array $options = [])
     {
-        $this->targetPhpVersion = $options['phpVersion'] ?? Emulative::PHP_8_0;
+        $this->targetPhpVersion = $options['phpVersion'] ?? Emulative::PHP_8_2;
         unset($options['phpVersion']);
 
         parent::__construct($options);
@@ -51,6 +56,10 @@ class Emulative extends Lexer
             new NumericLiteralSeparatorEmulator(),
             new NullsafeTokenEmulator(),
             new AttributeEmulator(),
+            new EnumTokenEmulator(),
+            new ReadonlyTokenEmulator(),
+            new ExplicitOctalEmulator(),
+            new ReadonlyFunctionTokenEmulator(),
         ];
 
         // Collect emulators that are relevant for the PHP version we're running
